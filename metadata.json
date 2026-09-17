@@ -1,0 +1,6 @@
+{
+  "name": "Control de Transferencias",
+  "description": "App para registro de transferencias del staff con comprobantes y planilla de aprobación en Google Sheets.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

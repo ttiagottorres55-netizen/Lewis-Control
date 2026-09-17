@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  
+  <!-- Outer subtle circular border -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#334155" stroke-width="4" stroke-dasharray="8 8"/>
+  
+  <!-- Central Badge/Card -->
+  <rect x="136" y="116" width="240" height="280" rx="32" fill="#1e293b" stroke="#334155" stroke-width="6"/>
+  
+  <!-- Receipt Lines inside card -->
+  <rect x="176" y="170" width="160" height="14" rx="7" fill="#64748b"/>
+  <rect x="176" y="204" width="110" height="12" rx="6" fill="#475569"/>
+  <rect x="176" y="232" width="130" height="12" rx="6" fill="#475569"/>
+  
+  <!-- Arrow circle representing transfer -->
+  <circle cx="256" cy="310" r="38" fill="url(#accent)"/>
+  <path d="M242 310h28m-8-8l8 8-8 8" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Checkmark badge at top right -->
+  <circle cx="360" cy="136" r="32" fill="url(#gold)"/>
+  <path d="M348 136l8 8 16-16" fill="none" stroke="#0f172a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
